@@ -65,7 +65,7 @@
 
   <!-- =================== HERO TITLE (LEFT) =================== -->
   <text x="26" y="170" fill="#FFFFFF" font-size="64" font-weight="700" letter-spacing="2">DAVIDYANG02</text>
-  <text x="28" y="200" fill="#FFFFFF" font-size="14" letter-spacing="3">ENGINEERING  /  GAME DEV  /  RESEARCH</text>
+  <text x="28" y="200" fill="#FFFFFF" font-size="14" letter-spacing="3">FINTECH  /  DATA ENGINEERING  /  GAME DEV</text>
 
   <!-- Status badges -->
   <g font-size="11" font-weight="700">
