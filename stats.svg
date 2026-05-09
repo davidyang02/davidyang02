@@ -8,17 +8,17 @@
 
   <!-- Row 1 -->
   <text x="20" y="56" fill="#888888" font-size="9">CONTRIB</text>
-  <text x="20" y="84" fill="#FFFFFF" font-size="22" font-weight="700">567</text>
+  <text x="20" y="84" fill="#FFFFFF" font-size="22" font-weight="700">569</text>
 
   <text x="180" y="56" fill="#888888" font-size="9">STARS</text>
-  <text x="180" y="84" fill="#FFFFFF" font-size="22" font-weight="700">3</text>
+  <text x="180" y="84" fill="#FFFFFF" font-size="22" font-weight="700">2</text>
 
   <text x="340" y="56" fill="#888888" font-size="9">FOLLOWERS</text>
   <text x="340" y="84" fill="#FFFFFF" font-size="22" font-weight="700">1</text>
 
   <!-- Row 2 -->
   <text x="20" y="120" fill="#888888" font-size="9">COMMITS</text>
-  <text x="20" y="148" fill="#FFFFFF" font-size="22" font-weight="700">11</text>
+  <text x="20" y="148" fill="#FFFFFF" font-size="22" font-weight="700">18</text>
 
   <text x="180" y="120" fill="#888888" font-size="9">PRs</text>
   <text x="180" y="148" fill="#FFFFFF" font-size="22" font-weight="700">0</text>
