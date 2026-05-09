@@ -60,7 +60,7 @@
   <rect x="324" y="58" width="9" height="13" fill="#FF7700">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
   </rect>
-  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-09  20:24:33 UTC</text>
+  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-09  20:29:15 UTC</text>
   <line x1="26" y1="80" x2="1174" y2="80" stroke="#444444" stroke-width="0.5" opacity="1"/>
 
   <!-- =================== HERO TITLE (LEFT) =================== -->
@@ -111,7 +111,7 @@
     <text x="1000" y="270" fill="#00C853" font-size="11" font-weight="700">6D</text>
 
     <text x="1066" y="258" fill="#FFFFFF" font-size="10">DAYS</text>
-    <text x="1066" y="270" fill="#FFFFFF" font-size="11" font-weight="700">57 / 365</text>
+    <text x="1066" y="270" fill="#FFFFFF" font-size="11" font-weight="700">56 / 365</text>
   </g>
 
   <!-- =================== BOTTOM TICKER =================== -->
