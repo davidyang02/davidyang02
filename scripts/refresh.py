@@ -287,7 +287,7 @@ def render_equity(st):
   <text x="1130" y="158" fill="#666666" font-size="9" text-anchor="middle">{lr[0]} - {lr[1]}</text>
 
   <line x1="0" y1="186" x2="1200" y2="186" stroke="#222222" stroke-width="0.5"/>
-  <text x="14" y="198" fill="#666666" font-size="9">DAVIDYANG02 US &lt;Equity&gt; GP &lt;Go&gt;</text>
+  <text x="14" y="198" fill="#666666" font-size="9">DAVIDYANG02 CA &lt;Equity&gt; GP &lt;Go&gt;</text>
   <text x="1186" y="198" fill="#666666" font-size="9" text-anchor="end">{date}</text>
 </svg>
 """

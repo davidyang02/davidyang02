@@ -55,7 +55,7 @@
 
   <!-- =================== COMMAND BAR =================== -->
   <line x1="26" y1="50" x2="1174" y2="50" stroke="#444444" stroke-width="0.5" opacity="1"/>
-  <text x="26" y="68" fill="#FF7700" font-size="13" font-weight="700">DAVIDYANG02 US</text>
+  <text x="26" y="68" fill="#FF7700" font-size="13" font-weight="700">DAVIDYANG02 CA</text>
   <text x="186" y="68" fill="#FFFFFF" font-size="13">&lt;Equity&gt;  GP  &lt;Go&gt;</text>
   <rect x="324" y="58" width="9" height="13" fill="#00C853">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
@@ -64,7 +64,7 @@
   <line x1="26" y1="80" x2="1174" y2="80" stroke="#444444" stroke-width="0.5" opacity="1"/>
 
   <!-- =================== HERO TITLE (LEFT) =================== -->
-  <text x="26" y="170" fill="#FF7700" font-size="64" font-weight="700" letter-spacing="2">DAVIDYANG02</text>
+  <text x="26" y="170" fill="#FFFFFF" font-size="64" font-weight="700" letter-spacing="2">DAVIDYANG02</text>
   <text x="28" y="200" fill="#FFFFFF" font-size="14" letter-spacing="3">ENGINEERING  /  GAME DEV  /  RESEARCH</text>
 
   <!-- Status badges -->
@@ -72,11 +72,7 @@
     <circle cx="34" cy="232" r="4" fill="#00C853"/>
     <text x="44" y="236" fill="#00C853">LIVE</text>
     <text x="86" y="236" fill="#888888">|</text>
-    <text x="98" y="236" fill="#FFFFFF">QUEEN'S UNIVERSITY</text>
-    <text x="244" y="236" fill="#888888">|</text>
-    <text x="256" y="236" fill="#FFFFFF">CISC 226 GAME DEV</text>
-    <text x="402" y="236" fill="#888888">|</text>
-    <text x="414" y="236" fill="#FFFFFF">TORONTO · ONT</text>
+    <text x="98" y="236" fill="#FFFFFF">TORONTO · ON · CA</text>
   </g>
 
   <!-- =================== RIGHT PANEL: GIP MINI =================== -->

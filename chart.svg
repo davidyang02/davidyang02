@@ -4,7 +4,7 @@
   <!-- Header bar -->
   <rect x="0" y="0" width="3" height="26" fill="#FF7700"/>
   <line x1="0" y1="26" x2="1200" y2="26" stroke="#444444" stroke-width="0.5"/>
-  <text x="14" y="18" fill="#FF7700" font-size="13" font-weight="700">GIP · DAVIDYANG02 US · CONTRIBUTION INTRADAY · 1Y</text>
+  <text x="14" y="18" fill="#FF7700" font-size="13" font-weight="700">GIP · DAVIDYANG02 CA · CONTRIBUTION INTRADAY · 1Y</text>
   <text x="1186" y="18" fill="#FF7700" font-size="13" font-weight="700" text-anchor="end">2026-05-09  14:32:07 EDT  ▲</text>
 
   <!-- Y axis labels -->
@@ -28,12 +28,12 @@
   <!-- Area fill under series -->
   <polyline
     points="40,210 80,200 120,205 160,180 200,185 240,160 280,170 320,140 360,150 400,120 440,130 480,100 520,110 560,80 600,90 640,70 680,85 720,60 760,75 800,55 840,68 880,50 920,62 960,48 1000,58 1040,52 1080,64 1120,55 1160,70 1180,80 1180,216 40,216"
-    fill="#FF7700" opacity="0.08" stroke="none"/>
+    fill="#5CB3E5" opacity="0.10" stroke="none"/>
 
   <!-- Main series (draws in on load) -->
   <polyline
     points="40,210 80,200 120,205 160,180 200,185 240,160 280,170 320,140 360,150 400,120 440,130 480,100 520,110 560,80 600,90 640,70 680,85 720,60 760,75 800,55 840,68 880,50 920,62 960,48 1000,58 1040,52 1080,64 1120,55 1160,70 1180,80"
-    fill="none" stroke="#FF7700" stroke-width="2"
+    fill="none" stroke="#5CB3E5" stroke-width="2"
     stroke-dasharray="1300" stroke-dashoffset="1300">
     <animate attributeName="stroke-dashoffset" from="1300" to="0" dur="2.6s" fill="freeze"/>
   </polyline>
