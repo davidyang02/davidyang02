@@ -207,9 +207,10 @@ def render_langs(st, top_n=6):
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" preserveAspectRatio="xMidYMid meet" font-family="ui-monospace, Consolas, 'Courier New', monospace">
   <rect width="480" height="180" fill="#000000"/>
-  <rect x="0" y="0" width="480" height="22" fill="#FF7700"/>
-  <text x="8" y="15" fill="#000000" font-size="11" font-weight="700">CRNCY · TOP LANGS</text>
-  <text x="472" y="15" fill="#000000" font-size="11" font-weight="700" text-anchor="end">{len(langs)} OF {len(st['languages'])}</text>{body}
+  <rect x="0" y="0" width="3" height="22" fill="#FF7700"/>
+  <line x1="0" y1="22" x2="480" y2="22" stroke="#444444" stroke-width="0.5"/>
+  <text x="10" y="15" fill="#FF7700" font-size="11" font-weight="700">CRNCY · TOP LANGS</text>
+  <text x="472" y="15" fill="#FF7700" font-size="11" font-weight="700" text-anchor="end">{len(langs)} OF {len(st['languages'])}</text>{body}
   <line x1="0" y1="170" x2="480" y2="170" stroke="#444444" stroke-width="0.5"/>
 </svg>
 """

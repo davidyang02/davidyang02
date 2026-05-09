@@ -2,9 +2,10 @@
   <rect width="480" height="180" fill="#000000"/>
 
   <!-- Header bar -->
-  <rect x="0" y="0" width="480" height="22" fill="#FF7700"/>
-  <text x="8" y="15" fill="#000000" font-size="11" font-weight="700">EQUITY · DAVIDYANG02</text>
-  <text x="472" y="15" fill="#000000" font-size="11" font-weight="700" text-anchor="end">1Y</text>
+  <rect x="0" y="0" width="3" height="22" fill="#FF7700"/>
+  <line x1="0" y1="22" x2="480" y2="22" stroke="#444444" stroke-width="0.5"/>
+  <text x="10" y="15" fill="#FF7700" font-size="11" font-weight="700">EQUITY · DAVIDYANG02</text>
+  <text x="472" y="15" fill="#FF7700" font-size="11" font-weight="700" text-anchor="end">1Y</text>
 
   <!-- Row 1 -->
   <text x="20" y="56" fill="#888888" font-size="9">CONTRIB</text>
