@@ -24,14 +24,14 @@
 <div align="center">
 
 <a href="https://github.com/davidyang02">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=davidyang02&show_icons=true&hide_border=false&bg_color=000000&title_color=FF7700&text_color=FFFFFF&icon_color=FF7700&border_color=FF7700&border_radius=0&include_all_commits=true&count_private=true&rank_icon=percentile" alt="commits"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=davidyang02&show_icons=true&hide_border=false&bg_color=000000&title_color=FF7700&text_color=FFFFFF&icon_color=FFFFFF&border_color=444444&border_radius=0&include_all_commits=true&count_private=true&rank_icon=percentile" alt="commits"/>
 </a>
 <a href="https://github.com/davidyang02">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=davidyang02&layout=compact&hide_border=false&bg_color=000000&title_color=FF7700&text_color=FFFFFF&border_color=FF7700&border_radius=0&langs_count=8" alt="languages"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=davidyang02&layout=compact&hide_border=false&bg_color=000000&title_color=FF7700&text_color=FFFFFF&border_color=444444&border_radius=0&langs_count=8" alt="languages"/>
 </a>
 
 <a href="https://github.com/davidyang02">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=davidyang02&theme=highcontrast&background=000000&stroke=FF7700&ring=FF7700&fire=FF7700&currStreakLabel=FF7700&sideLabels=FF7700&dates=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&hide_border=false&border=FF7700" alt="streak"/>
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=davidyang02&theme=highcontrast&background=000000&stroke=444444&ring=FF7700&fire=00C853&currStreakLabel=FF7700&sideLabels=FFFFFF&dates=AAAAAA&currStreakNum=FFFFFF&sideNums=FFFFFF&hide_border=false&border=444444" alt="streak"/>
 </a>
 
 </div>
