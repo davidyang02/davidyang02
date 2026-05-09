@@ -17,10 +17,10 @@
   <text x="814" y="46" fill="#5CB3E5" font-size="10" font-weight="700">STREAK</text>
 
   <!-- STATS -->
-  <text x="20" y="70" fill="#888888" font-size="9" font-weight="700">CONTRIB</text><text x="20" y="100" fill="#FFFFFF" font-size="22" font-weight="700">571</text>
+  <text x="20" y="70" fill="#888888" font-size="9" font-weight="700">CONTRIB</text><text x="20" y="100" fill="#FFFFFF" font-size="22" font-weight="700">575</text>
   <text x="150" y="70" fill="#888888" font-size="9" font-weight="700">STARS</text><text x="150" y="100" fill="#FFFFFF" font-size="22" font-weight="700">10</text>
   <text x="280" y="70" fill="#888888" font-size="9" font-weight="700">FOLLOW</text><text x="280" y="100" fill="#FFFFFF" font-size="22" font-weight="700">1</text>
-  <text x="20" y="134" fill="#888888" font-size="9" font-weight="700">COMMITS</text><text x="20" y="164" fill="#FFFFFF" font-size="22" font-weight="700">510</text>
+  <text x="20" y="134" fill="#888888" font-size="9" font-weight="700">COMMITS</text><text x="20" y="164" fill="#FFFFFF" font-size="22" font-weight="700">24</text>
   <text x="150" y="134" fill="#888888" font-size="9" font-weight="700">PRs</text><text x="150" y="164" fill="#FFFFFF" font-size="22" font-weight="700">40</text>
   <text x="280" y="134" fill="#888888" font-size="9" font-weight="700">REPOS</text><text x="280" y="164" fill="#FFFFFF" font-size="22" font-weight="700">24</text>
 
@@ -33,7 +33,7 @@
   <text x="414" y="183" fill="#FFFFFF" font-size="11">Cython</text><rect x="520" y="174" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="174" width="3.6" height="12" fill="#fedf5b"/><text x="780" y="183" fill="#FFFFFF" font-size="11" text-anchor="end">1.5%</text>
 
   <!-- STREAK: total | ring | longest -->
-  <text x="870" y="110" fill="#FFFFFF" font-size="28" font-weight="700" text-anchor="middle">571</text>
+  <text x="870" y="110" fill="#FFFFFF" font-size="28" font-weight="700" text-anchor="middle">575</text>
   <text x="870" y="138" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">TOTAL CONTRIB</text>
   <text x="870" y="158" fill="#666666" font-size="9" text-anchor="middle">Aug 2022 - Present</text>
 

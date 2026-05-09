@@ -293,6 +293,42 @@ def render_equity(st):
 """
 
 
+PANELS = [
+    ("banner.svg", 340),
+    ("port.svg", 215),
+    ("equity.svg", 200),
+    ("chart.svg", 360),
+]
+
+
+def compose_dashboard():
+    """Stitch the four 1200-wide panels into one tall dashboard.svg.
+
+    Each sub-SVG's content is wrapped in <g transform="translate(0, y)">.
+    GitHub renders the README's <img> elements with line-height/baseline
+    gaps between them; combining them eliminates the seams.
+    """
+    inner_re = re.compile(r'<svg\b[^>]*>(.*?)</svg>\s*$', re.DOTALL)
+    parts = []
+    y = 0
+    for path, h in PANELS:
+        s = (ROOT / path).read_text(encoding="utf-8")
+        m = inner_re.search(s)
+        if not m:
+            raise SystemExit(f"could not parse {path}")
+        parts.append(f'  <g transform="translate(0,{y})">\n{m.group(1)}\n  </g>')
+        y += h
+    total = sum(h for _, h in PANELS)
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 {total}" '
+        f'preserveAspectRatio="xMidYMid meet" '
+        f"font-family=\"ui-monospace, Consolas, 'Courier New', monospace\">\n"
+        f'  <rect width="1200" height="{total}" fill="#000000"/>\n'
+        + "\n".join(parts)
+        + "\n</svg>\n"
+    )
+
+
 def main():
     st = stats(fetch())
     log = {k: v for k, v in st.items() if k not in ("languages", "lang_colors")}
@@ -306,6 +342,7 @@ def main():
         p.write_text(fn(s, st), encoding="utf-8")
 
     (ROOT / "equity.svg").write_text(render_equity(st), encoding="utf-8")
+    (ROOT / "dashboard.svg").write_text(compose_dashboard(), encoding="utf-8")
 
 
 if __name__ == "__main__":
