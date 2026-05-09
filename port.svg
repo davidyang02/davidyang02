@@ -8,7 +8,7 @@
   <text x="1186" y="18" fill="#FF7700" font-size="13" font-weight="700" text-anchor="end">▲</text>
 
   <!-- Column headers -->
-  <g font-size="10" font-weight="700" fill="#888888">
+  <g font-size="10" font-weight="700" fill="#5CB3E5">
     <text x="20" y="46">TICKER</text>
     <text x="120" y="46">REPO</text>
     <text x="540" y="46">LAST CHG</text>

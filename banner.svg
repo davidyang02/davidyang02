@@ -57,7 +57,7 @@
   <line x1="26" y1="50" x2="1174" y2="50" stroke="#444444" stroke-width="0.5" opacity="1"/>
   <text x="26" y="68" fill="#FF7700" font-size="13" font-weight="700">DAVIDYANG02 US</text>
   <text x="186" y="68" fill="#FFFFFF" font-size="13">&lt;Equity&gt;  GP  &lt;Go&gt;</text>
-  <rect x="324" y="58" width="9" height="13" fill="#FF7700">
+  <rect x="324" y="58" width="9" height="13" fill="#00C853">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
   </rect>
   <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-09  20:50:10 UTC</text>
@@ -90,13 +90,13 @@
     <!-- Sparkline (draws in on load) -->
     <polyline
       points="830,240 850,232 870,238 890,220 910,224 930,210 950,218 970,200 990,206 1010,188 1030,196 1050,178 1070,170 1090,180 1110,158 1130,166 1150,148 1166,142"
-      fill="none" stroke="#FF7700" stroke-width="1.6"
+      fill="none" stroke="#5CB3E5" stroke-width="1.6"
       stroke-dasharray="420" stroke-dashoffset="420">
       <animate attributeName="stroke-dashoffset" from="420" to="0" dur="2.2s" fill="freeze"/>
     </polyline>
     <polyline
       points="830,240 850,232 870,238 890,220 910,224 930,210 950,218 970,200 990,206 1010,188 1030,196 1050,178 1070,170 1090,180 1110,158 1130,166 1150,148 1166,142 1166,260 830,260"
-      fill="#FF7700" opacity="0.10" stroke="none"/>
+      fill="#5CB3E5" opacity="0.10" stroke="none"/>
 
     <!-- Footer numbers -->
     <text x="828" y="258" fill="#FFFFFF" font-size="10">LAST</text>
@@ -115,28 +115,59 @@
     <text x="1066" y="270" fill="#FFFFFF" font-size="11" font-weight="700">56 / 365</text>
   </g>
 
-  <!-- =================== BOTTOM TICKER =================== -->
+  <!-- =================== BOTTOM TICKER (scrolling marquee) =================== -->
   <line x1="26" y1="296" x2="1174" y2="296" stroke="#444444" stroke-width="0.5" opacity="1"/>
-  <g font-size="12" font-weight="700">
-    <text x="26" y="318" fill="#FF7700">TERM</text>
-    <text x="70" y="318" fill="#00C853">+12.4% ▲</text>
-    <text x="148" y="318" fill="#888888">◆</text>
-    <text x="166" y="318" fill="#FF7700">MAGIK</text>
-    <text x="218" y="318" fill="#00C853">+24.1% ▲</text>
-    <text x="296" y="318" fill="#888888">◆</text>
-    <text x="314" y="318" fill="#FF7700">HFT</text>
-    <text x="350" y="318" fill="#00C853">+ 8.7% ▲</text>
-    <text x="428" y="318" fill="#888888">◆</text>
-    <text x="446" y="318" fill="#FF7700">RISK</text>
-    <text x="488" y="318" fill="#FF1744">- 1.2% ▼</text>
-    <text x="566" y="318" fill="#888888">◆</text>
-    <text x="584" y="318" fill="#FF7700">LOBBY</text>
-    <text x="636" y="318" fill="#00C853">+ 4.0% ▲</text>
-    <text x="714" y="318" fill="#888888">◆</text>
-    <text x="732" y="318" fill="#FF7700">SITE</text>
-    <text x="774" y="318" fill="#00C853">+ 2.1% ▲</text>
-    <text x="852" y="318" fill="#888888">◆</text>
-    <text x="870" y="318" fill="#FF7700">EST 2022.08</text>
-    <text x="1174" y="318" fill="#FFFFFF" text-anchor="end">&lt;HELP&gt; for HELP</text>
+  <defs>
+    <clipPath id="ticker-clip">
+      <rect x="26" y="300" width="1030" height="22"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ticker-clip)" font-size="12" font-weight="700">
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 0" to="-944 0" dur="32s" repeatCount="indefinite"/>
+      <!-- Copy 1 -->
+      <text x="26" y="318" fill="#FF7700">TERM</text>
+      <text x="70" y="318" fill="#00C853">+12.4% ▲</text>
+      <text x="148" y="318" fill="#888888">◆</text>
+      <text x="166" y="318" fill="#FF7700">MAGIK</text>
+      <text x="218" y="318" fill="#00C853">+24.1% ▲</text>
+      <text x="296" y="318" fill="#888888">◆</text>
+      <text x="314" y="318" fill="#FF7700">HFT</text>
+      <text x="350" y="318" fill="#00C853">+ 8.7% ▲</text>
+      <text x="428" y="318" fill="#888888">◆</text>
+      <text x="446" y="318" fill="#FF7700">RISK</text>
+      <text x="488" y="318" fill="#FF1744">- 1.2% ▼</text>
+      <text x="566" y="318" fill="#888888">◆</text>
+      <text x="584" y="318" fill="#FF7700">LOBBY</text>
+      <text x="636" y="318" fill="#00C853">+ 4.0% ▲</text>
+      <text x="714" y="318" fill="#888888">◆</text>
+      <text x="732" y="318" fill="#FF7700">SITE</text>
+      <text x="774" y="318" fill="#00C853">+ 2.1% ▲</text>
+      <text x="852" y="318" fill="#888888">◆</text>
+      <text x="870" y="318" fill="#FF7700">EST 2022.08</text>
+      <!-- Copy 2 (offset +944) -->
+      <text x="970" y="318" fill="#FF7700">TERM</text>
+      <text x="1014" y="318" fill="#00C853">+12.4% ▲</text>
+      <text x="1092" y="318" fill="#888888">◆</text>
+      <text x="1110" y="318" fill="#FF7700">MAGIK</text>
+      <text x="1162" y="318" fill="#00C853">+24.1% ▲</text>
+      <text x="1240" y="318" fill="#888888">◆</text>
+      <text x="1258" y="318" fill="#FF7700">HFT</text>
+      <text x="1294" y="318" fill="#00C853">+ 8.7% ▲</text>
+      <text x="1372" y="318" fill="#888888">◆</text>
+      <text x="1390" y="318" fill="#FF7700">RISK</text>
+      <text x="1432" y="318" fill="#FF1744">- 1.2% ▼</text>
+      <text x="1510" y="318" fill="#888888">◆</text>
+      <text x="1528" y="318" fill="#FF7700">LOBBY</text>
+      <text x="1580" y="318" fill="#00C853">+ 4.0% ▲</text>
+      <text x="1658" y="318" fill="#888888">◆</text>
+      <text x="1676" y="318" fill="#FF7700">SITE</text>
+      <text x="1718" y="318" fill="#00C853">+ 2.1% ▲</text>
+      <text x="1796" y="318" fill="#888888">◆</text>
+      <text x="1814" y="318" fill="#FF7700">EST 2022.08</text>
+    </g>
   </g>
+  <rect x="1056" y="298" width="118" height="24" fill="#000000"/>
+  <text x="1174" y="318" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="end">&lt;HELP&gt; for HELP</text>
 </svg>

@@ -12,9 +12,9 @@
   <line x1="800" y1="26" x2="800" y2="200" stroke="#222222" stroke-width="1"/>
 
   <!-- Sub-headers -->
-  <text x="14" y="46" fill="#888888" font-size="10" font-weight="700">STATS</text>
-  <text x="414" y="46" fill="#888888" font-size="10" font-weight="700">TOP LANGS · 6 OF 22</text>
-  <text x="814" y="46" fill="#888888" font-size="10" font-weight="700">STREAK</text>
+  <text x="14" y="46" fill="#5CB3E5" font-size="10" font-weight="700">STATS</text>
+  <text x="414" y="46" fill="#5CB3E5" font-size="10" font-weight="700">TOP LANGS · 6 OF 22</text>
+  <text x="814" y="46" fill="#5CB3E5" font-size="10" font-weight="700">STREAK</text>
 
   <!-- STATS -->
   <text x="20" y="70" fill="#888888" font-size="9" font-weight="700">CONTRIB</text><text x="20" y="100" fill="#FFFFFF" font-size="22" font-weight="700">571</text>

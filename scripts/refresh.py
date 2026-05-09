@@ -186,11 +186,11 @@ def update_chart(s, st):
     width = round(st["active"] / 365 * 900)
     pct = round(st["active"] / 365 * 100)
     s = re.sub(
-        r'(<rect x="70" y="332" width=")\d+(" height="14" fill="#FF7700"[^/]*/?>(?:\s*<animate[^/]*/>\s*)*\s*</rect>)',
+        r'(<rect x="70" y="332" width=")\d+(" height="14" fill="#[0-9A-Fa-f]{6}"[^/]*/?>(?:\s*<animate[^/]*/>\s*)*\s*</rect>)',
         rf'\g<1>{width}\g<2>', s, count=1,
     )
     s = re.sub(
-        r'(<rect x="70" y="332" width=")\d+(" height="14" fill="#FF7700"[^/]*/>)',
+        r'(<rect x="70" y="332" width=")\d+(" height="14" fill="#[0-9A-Fa-f]{6}"[^/]*/>)',
         rf'\g<1>{width}\g<2>', s, count=1,
     )
     s = re.sub(
@@ -261,9 +261,9 @@ def render_equity(st):
   <line x1="800" y1="26" x2="800" y2="200" stroke="#222222" stroke-width="1"/>
 
   <!-- Sub-headers -->
-  <text x="14" y="46" fill="#888888" font-size="10" font-weight="700">STATS</text>
-  <text x="414" y="46" fill="#888888" font-size="10" font-weight="700">TOP LANGS · {len(langs)} OF {len(st['languages'])}</text>
-  <text x="814" y="46" fill="#888888" font-size="10" font-weight="700">STREAK</text>
+  <text x="14" y="46" fill="#5CB3E5" font-size="10" font-weight="700">STATS</text>
+  <text x="414" y="46" fill="#5CB3E5" font-size="10" font-weight="700">TOP LANGS · {len(langs)} OF {len(st['languages'])}</text>
+  <text x="814" y="46" fill="#5CB3E5" font-size="10" font-weight="700">STREAK</text>
 
   <!-- STATS -->
   {stats_block}
