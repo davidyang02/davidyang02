@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 215" preserveAspectRatio="xMidYMid meet" font-family="ui-monospace, Consolas, 'Courier New', monospace">
+  <rect width="1200" height="215" fill="#000000"/>
+
+  <!-- Panel header -->
+  <rect x="0" y="0" width="3" height="26" fill="#FF7700"/>
+  <line x1="0" y1="26" x2="1200" y2="26" stroke="#444444" stroke-width="0.5"/>
+  <text x="14" y="18" fill="#FF7700" font-size="13" font-weight="700">PORT · ACTIVE POSITIONS · 6</text>
+  <text x="1186" y="18" fill="#FF7700" font-size="13" font-weight="700" text-anchor="end">▲</text>
+
+  <!-- Column headers -->
+  <g font-size="10" font-weight="700" fill="#888888">
+    <text x="20" y="46">TICKER</text>
+    <text x="120" y="46">REPO</text>
+    <text x="540" y="46">LAST CHG</text>
+    <text x="680" y="46">STACK</text>
+    <text x="1080" y="46">STATUS</text>
+  </g>
+  <line x1="20" y1="52" x2="1180" y2="52" stroke="#444444" stroke-width="0.5"/>
+
+  <!-- Row 1: TERM -->
+  <text x="20" y="72" fill="#FF7700" font-size="13" font-weight="700">TERM</text>
+  <text x="120" y="72" fill="#FFFFFF" font-size="13">terminal</text>
+  <text x="540" y="72" fill="#00C853" font-size="13" font-weight="700">+12.4% ▲</text>
+  <text x="680" y="72" fill="#888888" font-size="12">Next.js 16 · Drizzle · SQLite</text>
+  <rect x="1080" y="58" width="68" height="18" fill="none" stroke="#00C853" stroke-width="1"/>
+  <text x="1114" y="71" fill="#00C853" font-size="10" font-weight="700" text-anchor="middle">LIVE</text>
+  <line x1="20" y1="78" x2="1180" y2="78" stroke="#1F1F1F" stroke-width="0.5"/>
+
+  <!-- Row 2: MAGIK -->
+  <text x="20" y="98" fill="#FF7700" font-size="13" font-weight="700">MAGIK</text>
+  <text x="120" y="98" fill="#FFFFFF" font-size="13">MagicGame</text>
+  <text x="540" y="98" fill="#00C853" font-size="13" font-weight="700">+24.1% ▲</text>
+  <text x="680" y="98" fill="#888888" font-size="12">Unity 6 · C#</text>
+  <rect x="1080" y="84" width="68" height="18" fill="none" stroke="#FF7700" stroke-width="1"/>
+  <text x="1114" y="97" fill="#FF7700" font-size="10" font-weight="700" text-anchor="middle">DEV</text>
+  <line x1="20" y1="104" x2="1180" y2="104" stroke="#1F1F1F" stroke-width="0.5"/>
+
+  <!-- Row 3: HFT -->
+  <text x="20" y="124" fill="#FF7700" font-size="13" font-weight="700">HFT</text>
+  <text x="120" y="124" fill="#FFFFFF" font-size="13">hft-simulator</text>
+  <text x="540" y="124" fill="#00C853" font-size="13" font-weight="700">+ 8.7% ▲</text>
+  <text x="680" y="124" fill="#888888" font-size="12">C++ · CMake</text>
+  <rect x="1080" y="110" width="68" height="18" fill="none" stroke="#888888" stroke-width="1"/>
+  <text x="1114" y="123" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">IDLE</text>
+  <line x1="20" y1="130" x2="1180" y2="130" stroke="#1F1F1F" stroke-width="0.5"/>
+
+  <!-- Row 4: RISK -->
+  <text x="20" y="150" fill="#FF7700" font-size="13" font-weight="700">RISK</text>
+  <text x="120" y="150" fill="#FFFFFF" font-size="13">credit-union-risk-analysis</text>
+  <text x="540" y="150" fill="#FF1744" font-size="13" font-weight="700">- 1.2% ▼</text>
+  <text x="680" y="150" fill="#888888" font-size="12">Jupyter · Python · pandas</text>
+  <rect x="1080" y="136" width="68" height="18" fill="none" stroke="#888888" stroke-width="1"/>
+  <text x="1114" y="149" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">IDLE</text>
+  <line x1="20" y1="156" x2="1180" y2="156" stroke="#1F1F1F" stroke-width="0.5"/>
+
+  <!-- Row 5: LOBBY -->
+  <text x="20" y="176" fill="#FF7700" font-size="13" font-weight="700">LOBBY</text>
+  <text x="120" y="176" fill="#FFFFFF" font-size="13">LobbyingPredictionModel</text>
+  <text x="540" y="176" fill="#00C853" font-size="13" font-weight="700">+ 4.0% ▲</text>
+  <text x="680" y="176" fill="#888888" font-size="12">Jupyter · Python · sklearn</text>
+  <rect x="1080" y="162" width="68" height="18" fill="none" stroke="#888888" stroke-width="1"/>
+  <text x="1114" y="175" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">IDLE</text>
+  <line x1="20" y1="182" x2="1180" y2="182" stroke="#1F1F1F" stroke-width="0.5"/>
+
+  <!-- Row 6: SITE -->
+  <text x="20" y="202" fill="#FF7700" font-size="13" font-weight="700">SITE</text>
+  <text x="120" y="202" fill="#FFFFFF" font-size="13">personal-site</text>
+  <text x="540" y="202" fill="#00C853" font-size="13" font-weight="700">+ 2.1% ▲</text>
+  <text x="680" y="202" fill="#888888" font-size="12">TypeScript · Next.js</text>
+  <rect x="1080" y="188" width="68" height="18" fill="none" stroke="#00C853" stroke-width="1"/>
+  <text x="1114" y="201" fill="#00C853" font-size="10" font-weight="700" text-anchor="middle">LIVE</text>
+</svg>
