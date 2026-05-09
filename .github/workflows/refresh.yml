@@ -24,7 +24,10 @@ jobs:
 
       - name: Refresh SVGs
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # STATS_PAT is a classic PAT with `repo` + `read:user` scopes; if present
+          # it lets us count private repos / PRs. Falls back to the default token
+          # (public-only visibility).
+          GH_TOKEN: ${{ secrets.STATS_PAT || secrets.GITHUB_TOKEN }}
         run: python scripts/refresh.py
 
       - name: Commit if changed
@@ -35,6 +38,6 @@ jobs:
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add banner.svg chart.svg
+          git add banner.svg chart.svg stats.svg langs.svg
           git commit -m "chore(stats): refresh $(date -u +%Y-%m-%d)"
           git push

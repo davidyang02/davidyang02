@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" preserveAspectRatio="xMidYMid meet" font-family="ui-monospace, Consolas, 'Courier New', monospace">
+  <rect width="480" height="180" fill="#000000"/>
+  <rect x="0" y="0" width="480" height="22" fill="#FF7700"/>
+  <text x="8" y="15" fill="#000000" font-size="11" font-weight="700">CRNCY · TOP LANGS</text>
+  <text x="472" y="15" fill="#000000" font-size="11" font-weight="700" text-anchor="end">PUB</text>
+  <text x="240" y="100" fill="#888888" font-size="11" text-anchor="middle">awaiting first refresh...</text>
+</svg>

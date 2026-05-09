@@ -19,10 +19,12 @@
 
 ---
 
-### `<F2>` EQUITY · STREAK
+### `<F2>` EQUITY · STATISTICS
 
 <div align="center">
 
+<img height="180" src="https://raw.githubusercontent.com/davidyang02/davidyang02/main/stats.svg" alt="account summary"/>
+<img height="180" src="https://raw.githubusercontent.com/davidyang02/davidyang02/main/langs.svg" alt="top languages"/>
 <a href="https://github.com/davidyang02">
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=davidyang02&theme=highcontrast&background=000000&stroke=444444&ring=FF7700&fire=00C853&currStreakLabel=FF7700&sideLabels=FFFFFF&dates=AAAAAA&currStreakNum=FFFFFF&sideNums=FFFFFF&hide_border=false&border=444444" alt="streak"/>
 </a>
