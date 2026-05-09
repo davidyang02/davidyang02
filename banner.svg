@@ -57,6 +57,9 @@
   <line x1="26" y1="50" x2="1174" y2="50" stroke="#444444" stroke-width="0.5" opacity="1"/>
   <text x="26" y="68" fill="#FF7700" font-size="13" font-weight="700">DAVIDYANG02 US</text>
   <text x="186" y="68" fill="#FFFFFF" font-size="13">&lt;Equity&gt;  GP  &lt;Go&gt;</text>
+  <rect x="324" y="58" width="9" height="13" fill="#FF7700">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
   <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-09  14:32:07 EDT</text>
   <line x1="26" y1="80" x2="1174" y2="80" stroke="#444444" stroke-width="0.5" opacity="1"/>
 
@@ -83,10 +86,13 @@
     <text x="828" y="115" fill="#000000" font-size="11" font-weight="700">GIP · 1Y INTRADAY · CONTRIBUTIONS</text>
     <text x="1166" y="115" fill="#000000" font-size="11" font-weight="700" text-anchor="end">▲</text>
 
-    <!-- Sparkline -->
+    <!-- Sparkline (draws in on load) -->
     <polyline
       points="830,240 850,232 870,238 890,220 910,224 930,210 950,218 970,200 990,206 1010,188 1030,196 1050,178 1070,170 1090,180 1110,158 1130,166 1150,148 1166,142"
-      fill="none" stroke="#FF7700" stroke-width="1.6"/>
+      fill="none" stroke="#FF7700" stroke-width="1.6"
+      stroke-dasharray="420" stroke-dashoffset="420">
+      <animate attributeName="stroke-dashoffset" from="420" to="0" dur="2.2s" fill="freeze"/>
+    </polyline>
     <polyline
       points="830,240 850,232 870,238 890,220 910,224 930,210 950,218 970,200 990,206 1010,188 1030,196 1050,178 1070,170 1090,180 1110,158 1130,166 1150,148 1166,142 1166,260 830,260"
       fill="#FF7700" opacity="0.10" stroke="none"/>
