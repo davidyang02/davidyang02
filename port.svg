@@ -17,22 +17,22 @@
   </g>
   <line x1="20" y1="52" x2="1180" y2="52" stroke="#444444" stroke-width="0.5"/>
 
-  <!-- Row 1: TERM -->
+  <!-- Row 1: TERM (private) -->
   <text x="20" y="72" fill="#FF7700" font-size="13" font-weight="700">TERM</text>
-  <text x="120" y="72" fill="#FFFFFF" font-size="13">terminal</text>
+  <text x="120" y="72" fill="#666666" font-size="13" font-style="italic">[PRIVATE]</text>
   <text x="540" y="72" fill="#00C853" font-size="13" font-weight="700">+12.4% ▲</text>
-  <text x="680" y="72" fill="#888888" font-size="12">Next.js 16 · Drizzle · SQLite</text>
-  <rect x="1080" y="58" width="68" height="18" fill="none" stroke="#00C853" stroke-width="1"/>
-  <text x="1114" y="71" fill="#00C853" font-size="10" font-weight="700" text-anchor="middle">LIVE</text>
+  <text x="680" y="72" fill="#444444" font-size="12">---</text>
+  <rect x="1080" y="58" width="68" height="18" fill="none" stroke="#666666" stroke-width="1"/>
+  <text x="1114" y="71" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">PRIVATE</text>
   <line x1="20" y1="78" x2="1180" y2="78" stroke="#1F1F1F" stroke-width="0.5"/>
 
-  <!-- Row 2: MAGIK -->
+  <!-- Row 2: MAGIK (private) -->
   <text x="20" y="98" fill="#FF7700" font-size="13" font-weight="700">MAGIK</text>
-  <text x="120" y="98" fill="#FFFFFF" font-size="13">MagicGame</text>
+  <text x="120" y="98" fill="#666666" font-size="13" font-style="italic">[PRIVATE]</text>
   <text x="540" y="98" fill="#00C853" font-size="13" font-weight="700">+24.1% ▲</text>
-  <text x="680" y="98" fill="#888888" font-size="12">Unity 6 · C#</text>
-  <rect x="1080" y="84" width="68" height="18" fill="none" stroke="#FF7700" stroke-width="1"/>
-  <text x="1114" y="97" fill="#FF7700" font-size="10" font-weight="700" text-anchor="middle">DEV</text>
+  <text x="680" y="98" fill="#444444" font-size="12">---</text>
+  <rect x="1080" y="84" width="68" height="18" fill="none" stroke="#666666" stroke-width="1"/>
+  <text x="1114" y="97" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">PRIVATE</text>
   <line x1="20" y1="104" x2="1180" y2="104" stroke="#1F1F1F" stroke-width="0.5"/>
 
   <!-- Row 3: HFT -->
@@ -44,13 +44,13 @@
   <text x="1114" y="123" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">IDLE</text>
   <line x1="20" y1="130" x2="1180" y2="130" stroke="#1F1F1F" stroke-width="0.5"/>
 
-  <!-- Row 4: RISK -->
+  <!-- Row 4: RISK (private) -->
   <text x="20" y="150" fill="#FF7700" font-size="13" font-weight="700">RISK</text>
-  <text x="120" y="150" fill="#FFFFFF" font-size="13">credit-union-risk-analysis</text>
+  <text x="120" y="150" fill="#666666" font-size="13" font-style="italic">[PRIVATE]</text>
   <text x="540" y="150" fill="#FF1744" font-size="13" font-weight="700">- 1.2% ▼</text>
-  <text x="680" y="150" fill="#888888" font-size="12">Jupyter · Python · pandas</text>
-  <rect x="1080" y="136" width="68" height="18" fill="none" stroke="#888888" stroke-width="1"/>
-  <text x="1114" y="149" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">IDLE</text>
+  <text x="680" y="150" fill="#444444" font-size="12">---</text>
+  <rect x="1080" y="136" width="68" height="18" fill="none" stroke="#666666" stroke-width="1"/>
+  <text x="1114" y="149" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">PRIVATE</text>
   <line x1="20" y1="156" x2="1180" y2="156" stroke="#1F1F1F" stroke-width="0.5"/>
 
   <!-- Row 5: LOBBY -->
@@ -62,11 +62,11 @@
   <text x="1114" y="175" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">IDLE</text>
   <line x1="20" y1="182" x2="1180" y2="182" stroke="#1F1F1F" stroke-width="0.5"/>
 
-  <!-- Row 6: SITE -->
+  <!-- Row 6: SITE (private) -->
   <text x="20" y="202" fill="#FF7700" font-size="13" font-weight="700">SITE</text>
-  <text x="120" y="202" fill="#FFFFFF" font-size="13">personal-site</text>
+  <text x="120" y="202" fill="#666666" font-size="13" font-style="italic">[PRIVATE]</text>
   <text x="540" y="202" fill="#00C853" font-size="13" font-weight="700">+ 2.1% ▲</text>
-  <text x="680" y="202" fill="#888888" font-size="12">TypeScript · Next.js</text>
-  <rect x="1080" y="188" width="68" height="18" fill="none" stroke="#00C853" stroke-width="1"/>
-  <text x="1114" y="201" fill="#00C853" font-size="10" font-weight="700" text-anchor="middle">LIVE</text>
+  <text x="680" y="202" fill="#444444" font-size="12">---</text>
+  <rect x="1080" y="188" width="68" height="18" fill="none" stroke="#666666" stroke-width="1"/>
+  <text x="1114" y="201" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">PRIVATE</text>
 </svg>
