@@ -1,6 +1,6 @@
 <div align="center">
 
-![Bloomberg-style banner for davidyang02](banner.svg)
+![Bloomberg-style banner for davidyang02](https://raw.githubusercontent.com/davidyang02/davidyang02/main/banner.svg)
 
 </div>
 
@@ -40,7 +40,7 @@
 
 ### `<F10>` GIP · CONTRIBUTION INTRADAY
 
-![GIP contribution chart](chart.svg)
+![GIP contribution chart](https://raw.githubusercontent.com/davidyang02/davidyang02/main/chart.svg)
 
 ---
 
