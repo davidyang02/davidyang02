@@ -60,7 +60,7 @@
   <rect x="324" y="58" width="9" height="13" fill="#00C853">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
   </rect>
-  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-14  09:10:45 UTC</text>
+  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-15  09:25:26 UTC</text>
   <line x1="26" y1="80" x2="1174" y2="80" stroke="#444444" stroke-width="0.5" opacity="1"/>
 
   <!-- =================== HERO TITLE (LEFT) =================== -->
