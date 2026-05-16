@@ -63,7 +63,7 @@
   <rect x="324" y="58" width="9" height="13" fill="#00C853">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
   </rect>
-  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-15  09:25:26 UTC</text>
+  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-05-16  08:20:31 UTC</text>
   <line x1="26" y1="80" x2="1174" y2="80" stroke="#444444" stroke-width="0.5" opacity="1"/>
 
   <!-- =================== HERO TITLE (LEFT) =================== -->
@@ -297,7 +297,7 @@
 
   <line x1="0" y1="186" x2="1200" y2="186" stroke="#222222" stroke-width="0.5"/>
   <text x="14" y="198" fill="#666666" font-size="9">DAVIDYANG02 CA &lt;Equity&gt; GP &lt;Go&gt;</text>
-  <text x="1186" y="198" fill="#666666" font-size="9" text-anchor="end">2026-05-15</text>
+  <text x="1186" y="198" fill="#666666" font-size="9" text-anchor="end">2026-05-16</text>
 
   </g>
   <g transform="translate(0,755)">
