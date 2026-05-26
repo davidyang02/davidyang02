@@ -43,7 +43,7 @@
     <animate attributeName="r" values="3;6;3" dur="1.8s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="1190" y="84" fill="#00C853" font-size="11" font-weight="700">903</text>
+  <text x="1190" y="84" fill="#00C853" font-size="11" font-weight="700">947</text>
 
   <!-- X-axis labels -->
   <g font-size="11" fill="#888888" text-anchor="middle">
@@ -66,7 +66,7 @@
   <!-- Stat row 1 -->
   <g font-size="12">
     <text x="30" y="284" fill="#888888">LAST  1Y</text>
-    <text x="30" y="302" fill="#00C853" font-weight="700">903</text>
+    <text x="30" y="302" fill="#00C853" font-weight="700">947</text>
 
     <text x="140" y="284" fill="#888888">HIGH</text>
     <text x="140" y="302" fill="#FFFFFF" font-weight="700">74 / D</text>
@@ -75,22 +75,22 @@
     <text x="240" y="302" fill="#FFFFFF" font-weight="700">0  / D</text>
 
     <text x="340" y="284" fill="#888888">AVG</text>
-    <text x="340" y="302" fill="#FFFFFF" font-weight="700">2.5 / D</text>
+    <text x="340" y="302" fill="#FFFFFF" font-weight="700">2.6 / D</text>
 
     <text x="450" y="284" fill="#888888">STREAK</text>
     <text x="450" y="302" fill="#00C853" font-weight="700">0 D</text>
 
     <text x="560" y="284" fill="#888888">LONGEST</text>
-    <text x="560" y="302" fill="#FFFFFF" font-weight="700">9 D</text>
+    <text x="560" y="302" fill="#FFFFFF" font-weight="700">10 D</text>
 
     <text x="680" y="284" fill="#888888">PRs</text>
-    <text x="680" y="302" fill="#FFFFFF" font-weight="700">93</text>
+    <text x="680" y="302" fill="#FFFFFF" font-weight="700">106</text>
 
     <text x="760" y="284" fill="#888888">REPOS</text>
     <text x="760" y="302" fill="#FFFFFF" font-weight="700">23</text>
 
     <text x="850" y="284" fill="#888888">DAYS ACTIVE</text>
-    <text x="850" y="302" fill="#FFFFFF" font-weight="700">63 / 365</text>
+    <text x="850" y="302" fill="#FFFFFF" font-weight="700">64 / 365</text>
 
     <text x="990" y="284" fill="#888888">EST</text>
     <text x="990" y="302" fill="#FFFFFF" font-weight="700">2022.08</text>
@@ -103,11 +103,11 @@
   <line x1="20" y1="320" x2="1180" y2="320" stroke="#444444" stroke-width="0.5" opacity="1"/>
   <text x="30" y="342" fill="#888888" font-size="11">VOL</text>
   <g>
-    <rect x="70" y="332" width="155" height="14" fill="#1A1A1A" stroke="#444444" stroke-width="0.5"/>
-    <rect x="70" y="332" width="155" height="14" fill="#5CB3E5">
+    <rect x="70" y="332" width="158" height="14" fill="#1A1A1A" stroke="#444444" stroke-width="0.5"/>
+    <rect x="70" y="332" width="158" height="14" fill="#5CB3E5">
       <animate attributeName="width" from="0" to="138" dur="1.2s" fill="freeze"/>
     </rect>
   </g>
-  <text x="990" y="342" fill="#5CB3E5" font-size="11" font-weight="700">17%</text>
+  <text x="990" y="342" fill="#5CB3E5" font-size="11" font-weight="700">18%</text>
   <text x="1180" y="342" fill="#FFFFFF" font-size="11" text-anchor="end">&lt;HELP&gt; for HELP</text>
 </svg>
