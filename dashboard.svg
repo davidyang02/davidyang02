@@ -63,7 +63,7 @@
   <rect x="324" y="58" width="9" height="13" fill="#00C853">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
   </rect>
-  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-07-01  10:16:41 UTC</text>
+  <text x="1174" y="68" fill="#FFFFFF" font-size="13" text-anchor="end">2026-07-02  09:34:59 UTC</text>
   <line x1="26" y1="80" x2="1174" y2="80" stroke="#444444" stroke-width="0.5" opacity="1"/>
 
   <!-- =================== HERO TITLE (LEFT) =================== -->
@@ -99,19 +99,19 @@
 
     <!-- Footer numbers -->
     <text x="828" y="258" fill="#FFFFFF" font-size="10">LAST</text>
-    <text x="828" y="270" fill="#00C853" font-size="11" font-weight="700">2130</text>
+    <text x="828" y="270" fill="#00C853" font-size="11" font-weight="700">2225</text>
 
     <text x="878" y="258" fill="#FFFFFF" font-size="10">HIGH</text>
     <text x="878" y="270" fill="#FFFFFF" font-size="11" font-weight="700">159/D</text>
 
     <text x="940" y="258" fill="#FFFFFF" font-size="10">AVG</text>
-    <text x="940" y="270" fill="#FFFFFF" font-size="11" font-weight="700">5.8/D</text>
+    <text x="940" y="270" fill="#FFFFFF" font-size="11" font-weight="700">6.0/D</text>
 
     <text x="1000" y="258" fill="#FFFFFF" font-size="10">STREAK</text>
     <text x="1000" y="270" fill="#00C853" font-size="11" font-weight="700">0D</text>
 
     <text x="1066" y="258" fill="#FFFFFF" font-size="10">DAYS</text>
-    <text x="1066" y="270" fill="#FFFFFF" font-size="11" font-weight="700">95 / 365</text>
+    <text x="1066" y="270" fill="#FFFFFF" font-size="11" font-weight="700">96 / 365</text>
   </g>
 
   <!-- =================== BOTTOM TICKER (scrolling marquee) =================== -->
@@ -265,23 +265,23 @@
   <text x="814" y="46" fill="#5CB3E5" font-size="10" font-weight="700">STREAK</text>
 
   <!-- STATS -->
-  <text x="20" y="70" fill="#888888" font-size="9" font-weight="700">CONTRIB</text><text x="20" y="100" fill="#FFFFFF" font-size="22" font-weight="700">2130</text>
+  <text x="20" y="70" fill="#888888" font-size="9" font-weight="700">CONTRIB</text><text x="20" y="100" fill="#FFFFFF" font-size="22" font-weight="700">2225</text>
   <text x="150" y="70" fill="#888888" font-size="9" font-weight="700">STARS</text><text x="150" y="100" fill="#FFFFFF" font-size="22" font-weight="700">10</text>
   <text x="280" y="70" fill="#888888" font-size="9" font-weight="700">FOLLOW</text><text x="280" y="100" fill="#FFFFFF" font-size="22" font-weight="700">1</text>
-  <text x="20" y="134" fill="#888888" font-size="9" font-weight="700">COMMITS</text><text x="20" y="164" fill="#FFFFFF" font-size="22" font-weight="700">1640</text>
-  <text x="150" y="134" fill="#888888" font-size="9" font-weight="700">PRs</text><text x="150" y="164" fill="#FFFFFF" font-size="22" font-weight="700">464</text>
+  <text x="20" y="134" fill="#888888" font-size="9" font-weight="700">COMMITS</text><text x="20" y="164" fill="#FFFFFF" font-size="22" font-weight="700">1711</text>
+  <text x="150" y="134" fill="#888888" font-size="9" font-weight="700">PRs</text><text x="150" y="164" fill="#FFFFFF" font-size="22" font-weight="700">488</text>
   <text x="280" y="134" fill="#888888" font-size="9" font-weight="700">REPOS</text><text x="280" y="164" fill="#FFFFFF" font-size="22" font-weight="700">28</text>
 
   <!-- LANGS -->
-  <text x="414" y="73" fill="#FFFFFF" font-size="11">Python</text><rect x="520" y="64" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="64" width="159.8" height="12" fill="#3572A5"/><text x="780" y="73" fill="#FFFFFF" font-size="11" text-anchor="end">66.6%</text>
-  <text x="414" y="95" fill="#FFFFFF" font-size="11">HTML</text><rect x="520" y="86" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="86" width="51.6" height="12" fill="#e34c26"/><text x="780" y="95" fill="#FFFFFF" font-size="11" text-anchor="end">21.5%</text>
-  <text x="414" y="117" fill="#FFFFFF" font-size="11">TypeScript</text><rect x="520" y="108" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="108" width="16.9" height="12" fill="#3178c6"/><text x="780" y="117" fill="#FFFFFF" font-size="11" text-anchor="end">7.1%</text>
+  <text x="414" y="73" fill="#FFFFFF" font-size="11">Python</text><rect x="520" y="64" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="64" width="159.4" height="12" fill="#3572A5"/><text x="780" y="73" fill="#FFFFFF" font-size="11" text-anchor="end">66.4%</text>
+  <text x="414" y="95" fill="#FFFFFF" font-size="11">HTML</text><rect x="520" y="86" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="86" width="51.5" height="12" fill="#e34c26"/><text x="780" y="95" fill="#FFFFFF" font-size="11" text-anchor="end">21.4%</text>
+  <text x="414" y="117" fill="#FFFFFF" font-size="11">TypeScript</text><rect x="520" y="108" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="108" width="17.4" height="12" fill="#3178c6"/><text x="780" y="117" fill="#FFFFFF" font-size="11" text-anchor="end">7.3%</text>
   <text x="414" y="139" fill="#FFFFFF" font-size="11">Jupyter Not…</text><rect x="520" y="130" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="130" width="5.7" height="12" fill="#DA5B0B"/><text x="780" y="139" fill="#FFFFFF" font-size="11" text-anchor="end">2.4%</text>
   <text x="414" y="161" fill="#FFFFFF" font-size="11">C</text><rect x="520" y="152" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="152" width="3.1" height="12" fill="#555555"/><text x="780" y="161" fill="#FFFFFF" font-size="11" text-anchor="end">1.3%</text>
-  <text x="414" y="183" fill="#FFFFFF" font-size="11">PLpgSQL</text><rect x="520" y="174" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="174" width="2.9" height="12" fill="#336790"/><text x="780" y="183" fill="#FFFFFF" font-size="11" text-anchor="end">1.2%</text>
+  <text x="414" y="183" fill="#FFFFFF" font-size="11">PLpgSQL</text><rect x="520" y="174" width="240" height="12" fill="#1A1A1A"/><rect x="520" y="174" width="3.0" height="12" fill="#336790"/><text x="780" y="183" fill="#FFFFFF" font-size="11" text-anchor="end">1.2%</text>
 
   <!-- STREAK: total | ring | longest -->
-  <text x="870" y="110" fill="#FFFFFF" font-size="28" font-weight="700" text-anchor="middle">2130</text>
+  <text x="870" y="110" fill="#FFFFFF" font-size="28" font-weight="700" text-anchor="middle">2225</text>
   <text x="870" y="138" fill="#888888" font-size="10" font-weight="700" text-anchor="middle">TOTAL CONTRIB</text>
   <text x="870" y="158" fill="#666666" font-size="9" text-anchor="middle">Aug 2022 - Present</text>
 
@@ -297,7 +297,7 @@
 
   <line x1="0" y1="186" x2="1200" y2="186" stroke="#222222" stroke-width="0.5"/>
   <text x="14" y="198" fill="#666666" font-size="9">DAVIDYANG02 CA &lt;Equity&gt; GP &lt;Go&gt;</text>
-  <text x="1186" y="198" fill="#666666" font-size="9" text-anchor="end">2026-07-01</text>
+  <text x="1186" y="198" fill="#666666" font-size="9" text-anchor="end">2026-07-02</text>
 
   </g>
   <g transform="translate(0,755)">
@@ -346,7 +346,7 @@
     <animate attributeName="r" values="3;6;3" dur="1.8s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="1190" y="84" fill="#00C853" font-size="11" font-weight="700">2130</text>
+  <text x="1190" y="84" fill="#00C853" font-size="11" font-weight="700">2225</text>
 
   <!-- X-axis labels -->
   <g font-size="11" fill="#888888" text-anchor="middle">
@@ -369,7 +369,7 @@
   <!-- Stat row 1 -->
   <g font-size="12">
     <text x="30" y="284" fill="#888888">LAST  1Y</text>
-    <text x="30" y="302" fill="#00C853" font-weight="700">2130</text>
+    <text x="30" y="302" fill="#00C853" font-weight="700">2225</text>
 
     <text x="140" y="284" fill="#888888">HIGH</text>
     <text x="140" y="302" fill="#FFFFFF" font-weight="700">159 / D</text>
@@ -378,7 +378,7 @@
     <text x="240" y="302" fill="#FFFFFF" font-weight="700">0  / D</text>
 
     <text x="340" y="284" fill="#888888">AVG</text>
-    <text x="340" y="302" fill="#FFFFFF" font-weight="700">5.8 / D</text>
+    <text x="340" y="302" fill="#FFFFFF" font-weight="700">6.0 / D</text>
 
     <text x="450" y="284" fill="#888888">STREAK</text>
     <text x="450" y="302" fill="#00C853" font-weight="700">0 D</text>
@@ -387,13 +387,13 @@
     <text x="560" y="302" fill="#FFFFFF" font-weight="700">17 D</text>
 
     <text x="680" y="284" fill="#888888">PRs</text>
-    <text x="680" y="302" fill="#FFFFFF" font-weight="700">464</text>
+    <text x="680" y="302" fill="#FFFFFF" font-weight="700">488</text>
 
     <text x="760" y="284" fill="#888888">REPOS</text>
     <text x="760" y="302" fill="#FFFFFF" font-weight="700">28</text>
 
     <text x="850" y="284" fill="#888888">DAYS ACTIVE</text>
-    <text x="850" y="302" fill="#FFFFFF" font-weight="700">95 / 365</text>
+    <text x="850" y="302" fill="#FFFFFF" font-weight="700">96 / 365</text>
 
     <text x="990" y="284" fill="#888888">EST</text>
     <text x="990" y="302" fill="#FFFFFF" font-weight="700">2022.08</text>
@@ -406,8 +406,8 @@
   <line x1="20" y1="320" x2="1180" y2="320" stroke="#444444" stroke-width="0.5" opacity="1"/>
   <text x="30" y="342" fill="#888888" font-size="11">VOL</text>
   <g>
-    <rect x="70" y="332" width="234" height="14" fill="#1A1A1A" stroke="#444444" stroke-width="0.5"/>
-    <rect x="70" y="332" width="234" height="14" fill="#5CB3E5">
+    <rect x="70" y="332" width="237" height="14" fill="#1A1A1A" stroke="#444444" stroke-width="0.5"/>
+    <rect x="70" y="332" width="237" height="14" fill="#5CB3E5">
       <animate attributeName="width" from="0" to="138" dur="1.2s" fill="freeze"/>
     </rect>
   </g>
