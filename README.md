@@ -1,7 +1,13 @@
-# David Yang
+```console
+$ whoami
+David Yang — Toronto, Canada
 
-Building **OpenBSIS** — a platform for Canadian regulatory financial data.
+$ cat now.txt
+Building OpenBSIS — a platform for Canadian
+regulatory financial data.
 
-Based in Toronto, Canada.
+$ ls links/
+openbsis.com   github.com/davidyang02
 
-[openbsis.com](https://openbsis.com)  ·  [github](https://github.com/davidyang02)
+$ _
+```
