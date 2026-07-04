@@ -1,3 +1,7 @@
 # David Yang
 
-I build things with code. Based in Toronto, Canada.
+Building **OpenBSIS** — a platform for Canadian regulatory financial data.
+
+Based in Toronto, Canada.
+
+[openbsis.com](https://openbsis.com)  ·  [github](https://github.com/davidyang02)
