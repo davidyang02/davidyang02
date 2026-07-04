@@ -1,3 +1,3 @@
-<div align="center"><img src="https://raw.githubusercontent.com/davidyang02/davidyang02/main/dashboard.svg" width="100%" alt="dashboard"/></div>
+# David Yang
 
-<sub>`<HELP>` `<HELP>` for live support  ·  `davidyang02` @ github  ·  Toronto · ON · CA</sub>
+I build things with code. Based in Toronto, Canada.
