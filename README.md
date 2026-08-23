@@ -2,12 +2,10 @@
 $ whoami
 David Yang — Toronto, Canada
 
-$ cat now.txt
-Building OpenBSIS — a platform for Canadian
-regulatory financial data.
-
-$ ls links/
-openbsis.com   github.com/davidyang02
+$ ls -a
+most of what I build is private.
 
 $ _
 ```
+
+[LinkedIn](https://www.linkedin.com/in/davidyang02/)
