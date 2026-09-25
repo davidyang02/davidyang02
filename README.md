@@ -1,4 +1,4 @@
-Software engineering lead in Toronto.
+Software engineering lead in Ontario.
 
 Public: **[openbsis.com](https://openbsis.com)**, built with a friend. Most of my work is private.
 
